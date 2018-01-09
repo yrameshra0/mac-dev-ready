@@ -13,27 +13,31 @@ After the above steps now I'm ready to go ahead and put the nuts and bolts toget
 
 1. Install [jenv](http://www.jenv.be/) using ```brew install jenv```
 
-jenv is used for handling multiple java jdks and easy management across them. Post installation don't forget to add the path related changes to profile.
+   jenv is used for handling multiple java jdks and easy management across them. Post installation don't forget to add the path related changes to profile.
 
-At the time of writing this document `brew cask install java` bought `jdk9` and I want to have `jdk1.8` too hence follow below steps for making that happen
+   At the time of writing this document `brew cask install java` bought `jdk9` and I want to have `jdk1.8` too hence follow below steps for making that happen
 
-```
-brew tap caskroom/versions
-brew cask install java8
-```
+   ```
+   brew tap caskroom/versions
+   brew cask install java8
+   ```
 
-Post the command I want to add all the jdks to jenv using: 
+   Post the command I want to add all the jdks to jenv using: 
 
-`jenv add /Library/Java/JavaVirtualMachines/<jdk version>/Content/Home`
+   `jenv add /Library/Java/JavaVirtualMachines/<jdk version>/Content/Home`
 
-Doing the above step for all the jdks available, I have to set a global jdk for usage use `jenv global 1.8`
+   Doing the above step for all the jdks available, I have to set a global jdk for usage use `jenv global 1.8`
 
-Post the above steps I want to enable plugins for jenv
+   Post the above steps I want to enable plugins for jenv
 
-```
-jenv enable-plugin export
-jenv enable-plugin maven
-jenv enable-plugin gradle
-jenv enalbe-plugin scala
-jenv enable-plugin springboot
-```
+   ```
+   jenv enable-plugin export
+   jenv enable-plugin maven
+   jenv enable-plugin gradle
+   jenv enalbe-plugin scala
+   jenv enable-plugin springboot
+   ```
+1. Install IntelliJ-Idea using `brew cask install intellij-idea`
+1. Install Visual Studio Code using `brew cask install visual-studio-code`
+
+
