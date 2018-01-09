@@ -8,6 +8,7 @@ Currently while preparing the document the High Sierra was the OS that I was wor
 1. Followed by [Homebrew](https://brew.sh/)
 1. [Homebrew Cask](https://caskroom.github.io/) is too my favorite tool to pull down the process of installation and drag and drop game
 1. Install [.dotfiles](https://github.com/Hacklor/dotfiles)
+   Mental note remember to configure the iterm preferences and post that properly setting `zsh` as a login shell using steps shown [here](https://apple.stackexchange.com/questions/88278/change-default-shell-from-bash-to-zsh/88296#88296)
 
 After the above steps now I'm ready to go ahead and put the nuts and bolts together of my mac machine
 
@@ -44,4 +45,7 @@ After the above steps now I'm ready to go ahead and put the nuts and bolts toget
 1. Install Node by following steps [here](http://nodesource.com/blog/installing-node-js-tutorial-using-nvm-on-mac-os-x-and-ubuntu/).
 
    I like to install `node` using `nvm` for similar reason why I installed `jenv` above for `java`. `Nvm` help managing multiple versions of node with ease.
+1. Install AWS-Cli using `brew install aws-cli`
+1. Install Ansible using `brew install ansible`
+1. Install Terraform using `brew install terraform`
 
