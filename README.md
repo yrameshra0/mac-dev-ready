@@ -41,6 +41,7 @@ After the above steps now I'm ready to go ahead and put the nuts and bolts toget
 1. Install Visual Studio Code using `brew cask install visual-studio-code`
 1. Install Docker-CE using `brew cask install docker`
 1. Install VirtualBox using `brew cask install virtualbox`
-1. Install Node by following steps [here].(http://nodesource.com/blog/installing-node-js-tutorial-using-nvm-on-mac-os-x-and-ubuntu/)
+1. Install Node by following steps [here](http://nodesource.com/blog/installing-node-js-tutorial-using-nvm-on-mac-os-x-and-ubuntu/).
+
    I like to install `node` using `nvm` for similar reason why I installed `jenv` above for `java`. `Nvm` help managing multiple versions of node with ease.
 
