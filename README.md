@@ -8,6 +8,8 @@ Currently while preparing the document the High Sierra was the OS that I was wor
 1. Followed by [Homebrew](https://brew.sh/)
 1. [Homebrew Cask](https://caskroom.github.io/) is too my favorite tool to pull down the process of installation and drag and drop game
 1. Install [.dotfiles](https://github.com/Hacklor/dotfiles).
+1. Install CleanMyMac using `brew cask install cleanmymac`
+
 
    Mental note remember to configure the iterm preferences and post that properly setting `zsh` as a login shell using steps shown [here](https://apple.stackexchange.com/questions/88278/change-default-shell-from-bash-to-zsh/88296#88296)
 
