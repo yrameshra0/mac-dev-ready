@@ -17,26 +17,23 @@ jenv is used for handling multiple java jdks and easy management across them. Po
 
 At the time of writing this document `brew cask install java` bought `jdk9` and I want to have `jdk1.8` too hence follow below steps for making that happen
 
-```brew tap caskroom/versions```
+```
+brew tap caskroom/versions
+brew cask install java8
+```
 
-```brew cask install java8```
+Post the command I want to add all the jdks to jenv using: 
 
-Post the command I want to add all the jdks to jenv using:
+`jenv add /Library/Java/JavaVirtualMachines/<jdk version>/Content/Home`
 
-```jenv add /Library/Java/JavaVirtualMachines/<jdk version>/Content/Home```
-
-Doing the above step for all the jdks available, I have to set a global jdk for usage:
-
-```jenv global 1.8```
+Doing the above step for all the jdks available, I have to set a global jdk for usage use `jenv global 1.8`
 
 Post the above steps I want to enable plugins for jenv
 
-```jenv enable-plugin export```
-
-```jenv enable-plugin maven```
-
-```jenv enable-plugin gradle```
-
-```jenv enalbe-plugin scala```
-
-```jenv enable-plugin springboot```
+```
+jenv enable-plugin export
+jenv enable-plugin maven
+jenv enable-plugin gradle
+jenv enalbe-plugin scala
+jenv enable-plugin springboot
+```
