@@ -36,7 +36,7 @@ After the above steps now I'm ready to go ahead and put the nuts and bolts toget
    jenv enable-plugin export
    jenv enable-plugin maven
    jenv enable-plugin gradle
-   jenv enalbe-plugin scala
+   jenv enable-plugin scala
    jenv enable-plugin springboot
    ```
 1. Install IntelliJ-Idea using `brew cask install intellij-idea`
